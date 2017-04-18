@@ -1,5 +1,5 @@
-<html>
-<body>
-<h2>Hello World!</h2>
-</body>
-</html>
+<%
+    response.setStatus(HttpServletResponse.SC_MOVED_PERMANENTLY);
+    String newLocn = "./interface/login.html";
+    response.setHeader("Location",newLocn);
+%>
