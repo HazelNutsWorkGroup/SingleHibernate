@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SingleHibernate:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SingleHibernate.war">
+      <element id="artifact" artifact-name="SingleHibernate:war exploded" />
+    </root>
+  </artifact>
+</component>
